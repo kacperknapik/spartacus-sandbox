@@ -38,7 +38,6 @@
   - `npm i -g ts-node`
   - `ts-node ./spartacus-source/tools/schematics/testing`
   - select `publish`
-  - `npm --registry http://localhost:4873 publish`
 
 ### Install Spartacus as dependency for Angular application
 
@@ -47,7 +46,7 @@
   - (optional) `npm i -g @angular/cli@17.3.11`
   - `ng new spartacus-app --style=scss --routing=false --standalone=false`
   - select `no` for SSR
-  - cd `spartacus-app`
+  - `cd spartacus-app`
 - Configure local registry
   - create `.npmrc` file (in `spartacus-app` directory)
   - add configuration - `@spartacus:registry=http://localhost:4873`
@@ -55,5 +54,5 @@
   - `ng add @spartacus/schematics@2211.32.1`
   - press `enter` when asked for libraries to install
   - `npm i`
+  - change `baseUrl` in `spartacus-app/src/app/spartacus/spartacus-configuration.module.ts` to `https://40.76.109.9:9002` (Spartacus demo instance)
   - `npm start`
-  - change `baseUrl` in `spartacus/src/app/spartacus/spartacus-configuration.module.ts` to `https://40.76.109.9:9002` (Spartacus demo instance)
