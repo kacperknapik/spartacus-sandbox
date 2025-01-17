@@ -51,8 +51,8 @@
   - create `.npmrc` file (in `spartacus-app` directory)
   - add configuration - `@spartacus:registry=http://localhost:4873`
 - Install Spartacus
-  - `ng add @spartacus/schematics@2211.32.1`
+  - `ng add @spartacus/schematics`
   - press `enter` when asked for libraries to install
   - `npm i`
-  - change `baseUrl` in `spartacus-app/src/app/spartacus/spartacus-configuration.module.ts` to `https://40.76.109.9:9002` (Spartacus demo instance)
+  - change `baseUrl` in `spartacus-app/src/app/spartacus/spartacus-configuration.module.ts` to `https://composable-storefront-demo.eastus.cloudapp.azure.com:8443` (Spartacus demo instance)
   - `npm start`
