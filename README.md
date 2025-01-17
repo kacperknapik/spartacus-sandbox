@@ -56,3 +56,11 @@
   - `npm i`
   - change `baseUrl` in `spartacus-app/src/app/spartacus/spartacus-configuration.module.ts` to `https://composable-storefront-demo.eastus.cloudapp.azure.com:8443` (Spartacus demo instance)
   - `npm start`
+
+## License
+
+This project uses components licensed under the Apache License 2.0.
+
+- [Spartacus](https://github.com/SAP/spartacus) - Used for setting up a sandbox environment for training purposes
+
+For more details, see the [LICENSE](./LICENSE.md) and [NOTICE](./NOTICE.md) files.
