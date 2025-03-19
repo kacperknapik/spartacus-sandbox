@@ -57,6 +57,13 @@
   - `npm i`
   - change `baseUrl` in `spartacus-app/src/app/spartacus/spartacus-configuration.module.ts` to `https://composable-storefront-demo.eastus.cloudapp.azure.com:8443` (Spartacus demo instance)
   - `npm start`
+ 
+## Known issues
+
+- For Windows users:
+  - You might need to replace `../../node_modules/.bin/` with `''` (empty string), because Windows is not recognizing relative paths to npm packages
+  - There might be an issue with styles, because of forward/backward slash - check `/styles/spartacus/*.scss` files
+  - Installation might fail if you have spaces in your folder names
 
 ## License
 
