@@ -4,7 +4,8 @@
 
 - **Node.js** ^20.9.0 (check `.nvmrc` file for more information)
 - **Angular CLI** 17.3.11
-- **Docker**
+- **NPM** 10.9.2
+- **Docker** (optional, without Docker, you need to install `verdaccio` locally)
 
 ## Installation
 
