@@ -64,6 +64,8 @@
   - You might need to replace `../../node_modules/.bin/` with `''` (empty string), because Windows is not recognizing relative paths to npm packages
   - There might be an issue with styles, because of forward/backward slash - check `/styles/spartacus/*.scss` files
   - Installation might fail if you have spaces in your folder names
+- Verdaccio unpublishing:
+  - In case of any issues, you can remove published packages, like so: `npm unpublish --force [package_name] --registry http://localhost:4873`
 
 ## License
 
