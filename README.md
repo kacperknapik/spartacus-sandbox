@@ -35,9 +35,9 @@
 ### Publishing to local registry
 
 - Publish Spartacus source code to local registry
-  - start at the root of this project
+  - start inside of `spartacus-source/` folder
   - `npm i -g ts-node`
-  - `ts-node ./spartacus-source/tools/schematics/testing`
+  - `ts-node ./tools/schematics/testing`
   - select `publish`
 
 ### Install Spartacus as dependency for Angular application
